@@ -5,7 +5,6 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-COMMON_LUNCH_CHOICES := \
-    omni_NX679S-user\
-    omni_NX679S-userdebug \
-    omni_NX679S-eng
+add_lunch_combo omni_NX679S-user
+add_lunch_combo omni_NX679S-userdebug
+add_lunch_combo omni_NX679S-eng
